@@ -1,0 +1,134 @@
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.navbar-nav {
+    display: flex; 
+    align-items: center; 
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px; 
+}
+
+.navbar-nav .nav-link {
+    padding: 0.1rem 0.1rem; 
+    font-size: 1.0rem; 
+    color: #555;
+    transition: color 0.3s; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d9534f; 
+}
+
+
+.navbar-nav .nav-item {
+    display: flex; 
+    align-items: center; 
+}
+
+.navbar-brand {
+    font-size: 1.8rem; 
+    font-weight: bold; 
+    color: #343a40; 
+}
+
+
+/* Hero Section */
+.hero {
+    background: #FCEAE9;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+/* Share Recipes Section */
+.share-recipes h2 {
+    font-size: 2.5rem;
+}
+
+.share-recipes p {
+    font-size: 1.25rem;
+}
+
+/* Newsletter Section */
+.newsletter h2 {
+    font-size: 2rem;
+}
+
+.newsletter p {
+    font-size: 1.25rem;
+}
+
+/* Popular Categories */
+.categories img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.categories p {
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background: #f1f1f1; 
+    padding: 20px 0; 
+}
+
+footer p {
+    font-size: 1rem; 
+    margin-bottom: 10px; 
+}
+
+.social-icons img {
+    width: 24px; 
+    transition: transform 0.3s; 
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); 
+}
+
+footer h5 {
+    font-weight: bold; 
+    margin-bottom: 10px; 
+}
+
+footer ul {
+    padding-left: 0; 
+}
+
+footer ul li {
+    list-style: none; 
+}
+
+footer ul li a {
+    text-decoration: none; 
+    color: #6c757d; 
+}
+
+footer ul li a:hover {
+    text-decoration: underline; 
+}
+
+footer .container {
+    max-width: 100%; 
+}
+
+@media (max-width: 768px) {
+    footer h5 {
+        margin-top: 15px; 
+    }
+}
